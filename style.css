@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100vh;
+}
+.card {
+    background: #FFF;
+    border-radius: 20px;
+    box-shadow: 0px 2px 23px #29255191;
+    width: 500px;
+}
+.mediaCard{
+    background: url("https://i.pinimg.com/originals/eb/17/23/eb17231f77da3bbdc6852200e2a9c073.jpg") center/cover;
+    width: 100%;
+    height: 300px;
+}
+.title{
+    color: #2b3d59; 
+}
+.secondText{
+    color: #828fa1;
+}
+.bottomText{
+    color: teal;
+}
+.topCard{ 
+    padding: 20px;
+    padding-top: 0px;
+}
+.bottomCard{
+    padding: 20px;
+}
+.actions{
+    background: none;
+    bottom: none;
+    border-radius: 5px;
+    color: darkcyan;
+} 
